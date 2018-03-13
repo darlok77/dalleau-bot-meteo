@@ -71,4 +71,11 @@ module.exports = class BotMeteo {
   getTemperature () {
     return this.json.main.temp;
   }
+  /**
+   * getTemperature
+   * @return {string} temperature
+   */
+  getCity() {
+    return this.json.name;
+  }
 };
